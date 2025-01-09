@@ -1,0 +1,53 @@
+body {
+  background-color: bisque;
+}
+
+h1 {
+  font-family: monospace;
+  text-align: center;
+  color: darkslateblue;
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+img {
+  border: solid;
+  border-color: darkslateblue;
+}
+
+section {
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  color: cornflowerblue;
+}
+
+hr {
+  border-top: 2px solid darkslateblue;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr auto; /* Text on the left (1fr), image auto-sized */
+  gap: 20px; /* Space between text and image */
+  align-items: center; /* Vertically center content */
+  padding: 20px;
+}
+
+.text-content {
+  font-family: Arial, sans-serif;
+  color: darkslateblue;
+}
+
+.profile-pic {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
