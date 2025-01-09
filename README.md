@@ -1,2 +1,2 @@
 # myResume
-A resume I did for web dev class with Angela Yu
+My first Capstone Project for Wed Dev class
